@@ -1,0 +1,46 @@
+@import 'variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-main;
+    background-color: $bg-dark;
+    color: $text-light;
+    line-height: 1.6;
+    min-height: 100vh;
+  
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: $text-light;
+    transition: color $transition-speed ease;
+
+    &:hover {
+        color: $primary-color;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+main {
+    
+    padding: 40px 0;
+}
